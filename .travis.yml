@@ -1,6 +1,10 @@
 language: java
 
 install:
+  - git clone https://github.com/signalfx/signalfuse-java.git
+  - cd signalfuse-java
+  - mvn clean install -DskipTests=true
+  - cd -
   - mvn clean install -DskipTests=true
 
 script: mvn verify
