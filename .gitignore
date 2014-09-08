@@ -31,3 +31,4 @@ cleanmvn.dot
 # IntelliJ
 *.iml
 .idea
+/pom.xml.versionsBackup
