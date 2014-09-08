@@ -1,13 +1,12 @@
 package com.signalfuse.metrics.dropwizard;
 
-import java.util.List;
 import java.util.Set;
 import javax.validation.constraints.NotNull;
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.ScheduledReporter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonTypeName;
-import com.signalfuse.codahale.metrics.SignalFuseReporter;
+import com.signalfuse.codahale.reporter.SignalFuseReporter;
 import com.signalfuse.metrics.endpoint.DataPointEndpoint;
 
 import io.dropwizard.metrics.BaseReporterFactory;
